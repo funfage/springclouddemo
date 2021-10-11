@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<assembly><!---->
+    <id>demo</id>
+    <formats>
+        <!--打包的文件格式,也可以有：war zip-->
+        <format>tar.gz</format>
+    </formats>
+    <!--tar.gz压缩包下是否生成和项目名相同的根目录-->
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <!--是否把本项目添加到依赖文件夹下-->
+            <useProjectArtifact>false</useProjectArtifact>
+            <!--指定当前打包内容所存放在的目录名-->
+            <outputDirectory>lib</outputDirectory>
+            <!--将scope设置为runtime的依赖包打包-->
+            <scope>runtime</scope>
+            <!--打包是是否解压压所有的包-->
+            <unpack>false</unpack>
+        </dependencySet>
+    </dependencySets>
+    <fileSets>
+        <!--<fileSet>
+            &lt;!&ndash; 将项目启动jar打包到lib目录中 &ndash;&gt;
+            <directory>${project.build.directory}</directory>
+            <outputDirectory>jar</outputDirectory>
+            &lt;!&ndash;使用includes标签将指定文件引入&ndash;&gt;
+            <includes>
+                <include>*.jar</include>
+            </includes>
+        </fileSet>-->
+        <!--nacos-consumer模块的jar-->
+        <fileSet>
+            <directory>../nacos-consumer/target</directory>
+            <outputDirectory>jar</outputDirectory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+        </fileSet>
+        <!--nacos-server模块的jar-->
+        <fileSet>
+            <directory>../nacos-server/target</directory>
+            <outputDirectory>jar</outputDirectory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/bin</directory>
+            <!--指定bin打包内容所存放在的目录名-->
+            <outputDirectory>bin</outputDirectory>
+            <!--使用includes标签将指定文件排除-->
+            <excludes>
+                <exclude>**/*.txt</exclude>
+            </excludes>
+        </fileSet>
+    </fileSets>
+    <moduleSets>
+        <moduleSet>
+            <!--<useAllReactorProjects>true</useAllReactorProjects>
+            <includes>
+                <include>springclouddemo:nacos-server</include>
+            </includes>-->
+            <!--<binaries>
+                <outputDirectory>server</outputDirectory>
+                <unpack>false</unpack>
+                <includes>
+                    <include>*</include>
+                </includes>
+            </binaries>-->
+        </moduleSet>
+    </moduleSets>
+</assembly>

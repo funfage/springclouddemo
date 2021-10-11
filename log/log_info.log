@@ -1,0 +1,44 @@
+2021-10-11 09:36:18.519 [main] INFO  com.example.zrf.ElkDemoApplication - Starting ElkDemoApplication on runfamac with PID 31176 (/Users/runfa/Documents/program/SpringCloud/springclouddemo/elk-demo/target/classes started by runfa in /Users/runfa/Documents/program/SpringCloud/springclouddemo)
+2021-10-11 09:36:18.530 [main] INFO  com.example.zrf.ElkDemoApplication - The following profiles are active: dev
+2021-10-11 09:36:19.491 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-10-11 09:36:19.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124ms. Found 1 Elasticsearch repository interfaces.
+2021-10-11 09:36:19.636 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-10-11 09:36:19.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-10-11 09:36:20.121 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-10-11 09:36:20.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-11 09:36:20.129 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-11 09:36:20.129 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-10-11 09:36:20.196 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-11 09:36:20.197 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1603 ms
+2021-10-11 09:36:20.937 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.0.RELEASE
+2021-10-11 09:36:20.939 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2021-10-11 09:36:20.939 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Elasticsearch Client used: 7.6.2
+2021-10-11 09:36:21.349 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-11 09:36:21.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-11 09:36:21.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-11 09:36:21.562 [main] INFO  com.example.zrf.ElkDemoApplication - Started ElkDemoApplication in 3.776 seconds (JVM running for 4.555)
+2021-10-11 09:47:03.597 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-11 09:47:09.823 [main] INFO  com.example.zrf.ElkDemoApplication - Starting ElkDemoApplication on runfamac with PID 31463 (/Users/runfa/Documents/program/SpringCloud/springclouddemo/elk-demo/target/classes started by runfa in /Users/runfa/Documents/program/SpringCloud/springclouddemo)
+2021-10-11 09:47:09.828 [main] INFO  com.example.zrf.ElkDemoApplication - The following profiles are active: dev
+2021-10-11 09:47:10.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-10-11 09:47:10.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 1 Elasticsearch repository interfaces.
+2021-10-11 09:47:10.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-10-11 09:47:10.771 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-10-11 09:47:11.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-10-11 09:47:11.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-11 09:47:11.244 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-11 09:47:11.244 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-10-11 09:47:11.320 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-11 09:47:11.321 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+2021-10-11 09:47:12.112 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Spring Data Elasticsearch: 4.0.0.RELEASE
+2021-10-11 09:47:12.112 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Elasticsearch Client in build: 7.6.2
+2021-10-11 09:47:12.112 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Elasticsearch Client used: 7.6.2
+2021-10-11 09:47:12.112 [main] INFO  o.s.data.elasticsearch.support.VersionInfo - Version Elasticsearch cluster: 7.14.0
+2021-10-11 09:47:12.763 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-11 09:47:12.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-11 09:47:12.958 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-11 09:47:12.977 [main] INFO  com.example.zrf.ElkDemoApplication - Started ElkDemoApplication in 4.098 seconds (JVM running for 5.164)
+2021-10-11 09:48:40.114 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-11 09:48:40.117 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-10-11 09:48:40.138 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2021-10-11 10:09:07.096 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

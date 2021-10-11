@@ -1,0 +1,24 @@
+spring:
+  application:
+    # 项目名称启动时传入，写入ELK通过app名称进行隔离
+    name: elk-demo
+  profiles:
+    # 启动环境，ELK隔离通过profile属性隔离dev以及prod
+    active: dev
+#  elasticsearch:
+#    rest:
+#      uris: localhost:9200
+
+server:
+  port: 8080
+logging:
+  # 日志文件地址
+  config: classpath:logback-spring.xml
+  # 配置Logstash地址
+  logstash:
+    address:
+      logerror: localhost:9400
+      logwarn: localhost:9401
+      loginfo: localhost:9402
+  level:
+    root: info

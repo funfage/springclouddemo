@@ -1,0 +1,10 @@
+server:
+  port: 17358
+
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: zhowyunfat.cn:8848

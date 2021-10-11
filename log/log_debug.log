@@ -1,0 +1,25 @@
+2021-10-11 09:36:21.356 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-11 09:36:21.409 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 9 mappings in 'requestMappingHandlerMapping'
+2021-10-11 09:36:21.422 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 1 mappings in 'beanNameHandlerMapping'
+2021-10-11 09:36:21.434 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-11 09:36:21.443 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-11 09:47:12.783 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-11 09:47:12.853 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 9 mappings in 'requestMappingHandlerMapping'
+2021-10-11 09:47:12.864 [main] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Detected 1 mappings in 'beanNameHandlerMapping'
+2021-10-11 09:47:12.876 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-11 09:47:12.887 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-11 09:48:40.117 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-10-11 09:48:40.137 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-11 09:48:40.154 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/test", parameters={}
+2021-10-11 09:48:40.162 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped to com.example.zrf.controller.TestController@494308d3
+2021-10-11 09:48:40.170 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Failed to complete request: javax.servlet.ServletException: No adapter for handler [com.example.zrf.controller.TestController@494308d3]: The DispatcherServlet configuration needs to include a HandlerAdapter that supports this handler
+2021-10-11 09:48:40.182 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2021-10-11 09:48:40.184 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-11 09:48:40.222 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/x-jackson-smile, application/cbor]
+2021-10-11 09:48:40.223 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 11 09:48:40 CST 2021, status=500, error=Internal Server Error, message=, path=/te (truncated)...]
+2021-10-11 09:48:40.259 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
+2021-10-11 09:49:09.445 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/warn1", parameters={}
+2021-10-11 09:49:09.448 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.zrf.controller.TestController#logWarn()
+2021-10-11 09:49:09.460 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json, application/x-jackson-smile, application/cbor]
+2021-10-11 09:49:09.460 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["warn"]
+2021-10-11 09:49:09.463 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

@@ -1,0 +1,17 @@
+server:
+  port: 17357
+
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: zhowyunfat.cn:8848
+      config:
+        server-addr: zhowyunfat.cn:8848
+        file-extension: yaml
+        namespace: 1c34373c-809b-423b-85a6-4d8a5566106f
+        ext-config:
+          - refresh: true
+            data-id: nacos-provider.yaml
